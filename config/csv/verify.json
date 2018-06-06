@@ -1,0 +1,20 @@
+{
+  // pay 表的验证
+  pay: {
+    // prizeid 为 prize 表的 id
+    prizeid: {
+      t: 'ref',
+      p: ['prize', 'id']
+    },
+    // -1 或者 小时:分钟
+    available_time: {
+      t: 'format',
+      p: ['(-1|[0-9]{1,2}:[0-9]{1,2})']
+    },
+
+    unavailable_time: {
+      t: 'format',
+      p: ['(-1|[0-9]{1,2}:[0-9]{1,2})']
+    }
+  }
+}

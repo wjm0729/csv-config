@@ -1,0 +1,21 @@
+id`remark`parm1`parm2`parm3
+string`string`string`string`string
+daily_special_reward_limit`每日农田收取获得特殊奖励次数上限`3``
+friend_num_limit`好友数量上限`200``
+recommend_num`每次推荐好友数量`8``
+recommend_condition`parm1最近活跃时间范围，单位m；parm2推荐好友的庄园等级范围，与玩家自身等级相关-n~+n；parm3是否有好友验证0无，1有`0;3;60;120;1440`5`0
+vitality_recovery`每点体力自动恢复时间，s`600``
+daily_share`parm1每日分享次数；parm2每次分享获得奖励id；parm3领取奖励间隔，单位s`1`701`0
+harvest_share`parm1每日农田收获触发分享最大次数；parm2每次农田收获触发分享概率（万分比）；parm3触发分享后，收获增加倍数以及权重`3`100`3;7|5;2|10;1
+daily_share_show`每日分享，parm1分享标题文本；parm2分享图片；`800424``mainui/share_pic1.png
+harvest_share_show`农作物收获分享，parm1分享标题文本；parm2分享图片；`800425``mainui/share_pic1.png
+farmland_star_levelup_share_show`农田升星分享，parm1分享标题文本；parm2分享图片；`800426``mainui/share_pic1.png
+villa_levelup_share_show`庄园升级分享，parm1分享标题文本；parm2分享图片；`800427``mainui/share_pic1.png
+science_levelup_share_show`科技升级分享，parm1分享标题文本；parm2分享图片；`800428``mainui/share_pic1.png
+science_help_share_show`科技求助分享，parm1分享标题文本；parm2分享图片；`800429``mainui/share_pic1.png
+all_farmland_speed_up`parm1：所有农田等级均达到某一数值;产量增加倍数（填多组，累乘）；parm2：指定哪些农田，填类型id;parm3:图标路径`25;2|50;2|100;2|200;2|300;2|400;2|500;2|600;2|666;2|700;2|777;2|800;2|900;2|1000;2|1100;2|1200;2|1300;2|1400;2|1500;2|1600;2|1700;2|1800;2|1900;2|2000;2|2100;2|2200;2|2300;2|2400;2|2500;2|2600;2|2700;2|2800;2|2900;2|3000;2|3100;2|3200;2|3300;2|3400;2|3500;2|3600;2|3700;2|3800;2|3900;2|4000;2|4100;2|4200;2|4300;2|4400;2|4500;2|4600;2|4700;2|4800;2|4900;2|5000;2`1;2;3;4;5;6;7;8;9;10`icon/science_box.png
+fertilizer_show_num`肥料显示数量,parm1显示的数量`11``
+watering_parm`parm1:浇水功能开启所需解锁position id；parm2：金币产量增加倍数；parm3：浇水效果持续时间，s`7`2`7200
+friend_unlock_position`好友功能开启所需解锁position id`3``
+increase_production_unlock_position`增产功能开启所需解锁position id`5``
+friend_share_show`好友一起玩分享，parm1分享标题文本；parm2分享图片；`800430``mainui/share_pic1.png
