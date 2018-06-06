@@ -1,4 +1,4 @@
-package org.xx.config.impl;
+package org.xx.config.core.gen;
 
 import org.xx.config.core.gen.ConfigGenerator;
 import org.xx.config.core.ConfigManager;
